@@ -13,4 +13,6 @@
 -- | 2020 | Washington Nationals              |
 -- +------+-----------------------------------+
 
-
+sqlite3 baseball.sqlite3
+.schema
+SELECT year, name FROM teams
